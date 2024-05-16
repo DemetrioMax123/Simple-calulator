@@ -103,4 +103,7 @@
   #calculation {
     font-size: 14vw;
   }
+    .btnNumber:hover {
+    background-color: rgb(80, 77, 77);
+  }
 }
