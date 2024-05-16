@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="numResultContainer">
+        <p id="calculation"></p>
+      </div>
+      <div id="keyboard">
+        <button class="btnNumber" onclick="getNumber(7)">7</button>
+        <button class="btnNumber" onclick="getNumber(8)">8</button>
+        <button class="btnNumber" onclick="getNumber(9)">9</button>
+        <button class="btnNumber" onclick="getNumber('/')">/</button>
+        <button class="btnNumber" onclick="getNumber(4)">4</button>
+        <button class="btnNumber" onclick="getNumber(5)">5</button>
+        <button class="btnNumber" onclick="getNumber(6)">6</button>
+        <button class="btnNumber" onclick="getNumber('*')">x</button>
+        <button class="btnNumber" onclick="getNumber(1)">1</button>
+        <button class="btnNumber" onclick="getNumber(2)">2</button>
+        <button class="btnNumber" onclick="getNumber(3)">3</button>
+        <button class="btnNumber" onclick="getNumber('-')">-</button>
+        <button class="btnNumber" onclick="getNumber(0)">0</button>
+        <button class="btnNumber" onclick="getNumber('.')">.</button>
+
+        <button class="btnNumber" onclick="clearScreen()">C</button>
+        <button class="btnNumber" onclick="getNumber('+')">+</button>
+        <button class="btnNumber" id="resultBtn" onclick="calculate()">
+          =
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
