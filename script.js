@@ -1,6 +1,6 @@
 const buttons = document.querySelectorAll(".btnNumber");
 
-buttons.forEach((button) => {
+buttons.forEach(button => {
   button.addEventListener("touchend", () => {
     button.classList.remove("active");
   });
